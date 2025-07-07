@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "517358270371",
+    "project_id": "reglab-93598",
+    "storage_bucket": "reglab-93598.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:517358270371:android:1c7be1042b128bfa520c16",
+        "android_client_info": {
+          "package_name": "com.example.reglab3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBP9skC3VuvTfyshEjjEZMFWfTuROq1Hh8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:517358270371:android:3a5ed917b5c75756520c16",
+        "android_client_info": {
+          "package_name": "com.example.reglab6navigasiviewmodelflowstatecourotinesideeffectcloudfire"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBP9skC3VuvTfyshEjjEZMFWfTuROq1Hh8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:517358270371:android:cf281b890c635802520c16",
+        "android_client_info": {
+          "package_name": "com.example.reglab7firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBP9skC3VuvTfyshEjjEZMFWfTuROq1Hh8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
