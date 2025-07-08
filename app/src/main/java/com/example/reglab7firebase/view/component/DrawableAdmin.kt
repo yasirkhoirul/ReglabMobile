@@ -188,6 +188,7 @@ fun DrawableNavigationAdmin(
     }
 }
 
+
 @Composable
 fun IsiDashAdmin(
     isiinformasi: List<Isi>,
@@ -455,8 +456,16 @@ fun IsiDashAdmin(
                                         verticalArrangement = Arrangement.Center,
                                         horizontalAlignment = Alignment.CenterHorizontally
                                     ) {
-                                        Row (modifier = Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.SpaceBetween){
-                                            Text(it.judul, fontWeight = FontWeight.Bold, modifier = Modifier.weight(1f))
+                                        Row(
+                                            modifier = Modifier.fillMaxWidth(),
+                                            verticalAlignment = Alignment.CenterVertically,
+                                            horizontalArrangement = Arrangement.SpaceBetween
+                                        ) {
+                                            Text(
+                                                it.judul,
+                                                fontWeight = FontWeight.Bold,
+                                                modifier = Modifier.weight(1f)
+                                            )
                                             IconButton(onClick = { deleteInfor(it.uid) }) {
                                                 Image(
                                                     imageVector = ImageVector.vectorResource(R.drawable.outline_cancel_24),

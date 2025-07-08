@@ -40,10 +40,13 @@ class PilihMapViewModel( private val lokasiRepo : LocationRepo): ViewModel() {
         status.value = Cek.idle
     }
     fun handlingClikLocation(){
+        if (setLokasi.value.CampusLoc.toString().isEmpty()||setLokasi.value == CampusLocation()){
+            status.value = Cek.Error("Silahkan pilih lokasi terlebih dahulu")
+            return
+        }
         status.value = Cek.Loading
         viewModelScope.launch {
             try {
-                Log.d("lokasi di up",setLokasi.value.CampusLoc.toString())
                 lokasiRepo.upLocation(setLokasi.value.CampusLoc)
                 status.value = Cek.Sukses
             }catch (e: Exception){

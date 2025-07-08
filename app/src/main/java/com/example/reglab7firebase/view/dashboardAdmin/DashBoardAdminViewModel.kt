@@ -69,7 +69,6 @@ class DashBoardAdminViewModel(private val user : UserRepo,private val informasi 
     fun getInformation(){
         viewModelScope.launch {
             informasi.getInformation().collect {
-                Log.d("lihatisiInfo",it.toString())
                 informasistate.value = it
             }
         }
@@ -96,5 +95,4 @@ class DashBoardAdminViewModel(private val user : UserRepo,private val informasi 
             }
         }
     }
-
 }
